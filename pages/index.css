@@ -127,7 +127,7 @@ width: 560px;
 border: none;
 }
 
-.recipes__video_caption {
+.recipes__videos recipes__video_caption {
   display: flex;
   justify-content: space-between;
   font-weight: 500;
