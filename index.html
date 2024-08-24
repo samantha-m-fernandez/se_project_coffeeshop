@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Samantha M. Fernandez">
-    <meta name="description" content="Welcome to the Triple Peaks Coffee Shop, your cozy study zone with specialty coffee, creative vibes and delicious recioes. ">
+    <meta name="description" content="Welcome to the Triple Peaks Coffee Shop, your cozy study zone with specialty coffee, creative vibes and delicious recipes. ">
     <meta name="keywords" content="Coffee shop, specialty coffee, triple peaks, recipes, books a table, menu, cozy vibes">
     <title>Coffee Shop</title>
     <link rel="stylesheet" href="./vendor/normalize.css">
@@ -17,11 +17,11 @@ rel="stylesheet">
   </head>
   <body>
       <div class="page">
-        <header class="header block">
+        <header class="header">
           <nav class="nav">
             <img
-            src="./images/background_header.svg"
-            alt="Triple Peaks Library Logo"
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Triple Peaks Coffeeshop Logo"
             class="nav__logo">
           <ul class="nav__links">
             <li>
@@ -38,27 +38,46 @@ rel="stylesheet">
             </li>
           </ul>
         </nav>
-        <h1 class="header__title">Specialty Coffee in the Triple Peaks Library</h1>
+        <h1 class="header__title"> <span class="header__span-accent">Specialty Coffee</span> in the Triple Peaks Library
+        </h1>
         <p class="header__description">
-          Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.
+          Welcome to our study zone! We've got the coffee to energize you
+          and the cozy vibes to help you get creative.
         </p>
         <img
-          src="./images/logo_coffeeshop_light.svg"
+          src="./images/inside_coffee_shop.png"
           alt="Illustration 'Inside the coffeeshop'"
           class="header__image">
         <div class="header__footer">
-          <a href="#about" class="header__link">Hours</a>
-          <p class="header__address">
+          <div>
+          <p class="header__paragraph">Hours:</p>
+          <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
+          <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
+          </div>
+          <p class="header__paragraph">
             200 Success Avenue, The Town of Triple Peaks
           </p>
-        </div>
-      </header>
+          </div>
+        </header>
       <main class="content">
         <section id="recipes" class="recipes">
-          <h2>Recipes</h2>
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:</p>
+          <ul class="recipes__videos">
+            <li>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/j6VlT_jUVPc?si=b4rimBpN8zr1DkO4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+              </iframe>
+            <p class="recipes__video-caption">Aeropress recipe<span>~5 min</span></p>
+            </li>
+            <li>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/st571DYYTR8?si=HSnmlyfY0tWHBuHr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+              </iframe>
+              <p class="recipes__video-caption">French press recipe <span>~15 min</span></p>
+            </li>
+          </ul>
         </section>
-        <section id="reservation" class="reservation">
-          <h2>Reservation</h2>
+        <section id="book_a_table" class="book_a_table">
+          <h2>Book a Table</h2>
         </section>
         <section id="menu" class="menu">
           <h2>Menu</h2>
@@ -75,7 +94,7 @@ rel="stylesheet">
           alt="Triple Peaks Coffee Shop Logo"
           class="footer__logo">
       </div>
-      <div class="footer__column footer__column_content_social">
+      <div class="footer__column_content-social">
         <h3 class="footer__column-heading">Social Media</h3>
         <ul class="footer__list">
           <li class="footer__list-item">
