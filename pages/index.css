@@ -134,13 +134,13 @@ justify-content: center;
 gap: 40px;
 }
 
-iframe {
+.recipes__iframe {
 height: 315px;
 width: 560px;
 border: none;
 }
 
-.recipes__videos recipes__video_caption {
+.recipes__video_caption {
   font-family: "Inter", Arial, sans-serif;
   font-size: 20px;
   line-height: 30px;
