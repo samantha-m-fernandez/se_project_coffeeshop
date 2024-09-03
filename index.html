@@ -7,7 +7,6 @@
     <meta name="description" content="Welcome to the Triple Peaks Coffee Shop, your cozy study zone with specialty coffee, creative vibes and delicious recipes. ">
     <meta name="keywords" content="Coffee shop, specialty coffee, triple peaks, recipes, books a table, menu, cozy vibes">
     <title>Coffee Shop</title>
-    <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -121,44 +120,75 @@
         </form>
         </section>
         <section id="menu" class="menu">
-          <h2>Menu</h2>
+          <h2 class="menu__title">Menu</h2>
+          <p class="menu__subtitle">We brew coffee from locally roasted, fairtrade certified beans, and use biodegradable cups. All teas from our collection are $2/cup.</p>
+          <ul class="menu__cards">
+            <li class="card">
+              <h3 class="card__title">Filter</h3>
+              <ul class="card__list">
+                <li class="card__list_item">Regular (12 oz)<span class="card__list_divider"></span>$1</li>
+                <li class="card__list_item">Large (16 oz)<span class="card__list_divider"></span>$1.25</li>
+                <li class="card__list_item">XL (20 oz)<span class="card__list_divider"></span>$1.5</li>
+                <li class="card__list_item">Party-size (24oz, decaf)<span class="card__list_divider"></span>$1.75</li>
+                <li class="card__list_item">Iced Coffee (16oz)<span class="card__list_divider"></span>$1.25</li>
+              </ul>
+            </li>
+            <li class="card">
+              <h3 class="card__title">Espresso</h3>
+              <ul class="card__list">
+                <li class="card__list_item">Macchiato<span class="card__list_divider"></span>$2.25</li>
+                <li class="card__list_item">Cortado<span class="card__list_divider"></span>$2.5</li>
+                <li class="card__list_item">Mocha<span class="card__list_divider"></span>$3</li>
+                <li class="card__list_item">Sunrise in the Bay Area (decaf)<span class="card__list_divider"></span>$10</li>
+              </ul>
+            </li>
+            <li class="card">
+              <h3 class="card__title">Baked Goods</h3>
+              <ul class="card__list">
+                <li class="card__list_item">Almond Croissant<span class="card__list_divider"></span>$2</li>
+                <li class="card__list_item">Banana bread<span class="card__list_divider"></span>$1.75</li>
+                <li class="card__list_item">Key Lime Pie<span class="card__list_divider"></span>$3</li>
+                <li class="card__list_item">Blue Velvet Cake<span class="card__list_divider"></span>$3.75</li>
+                <li class="card__list_item">Web Cookie<span class="card__list_divider"></span>$2</li>
+                <li class="card__list_item">Fresh Bu'guette<span class="card__list_divider"></span>$0.25</li>
+              </ul>
+            </li>
+          </ul>
         </section>
-        <section id="about" class="about">
-      <h2>About us</h2>
-    </section>
+      <section class="about">
+        <div class="about__content">
+      <h2 class="about__title">About the coffee shop</h2>
+        <p class="about__paragraph">Our coffee shop is located in the Triple Peaks Library. It features 6 tables and free WIFI.</p>
+          <p class="about__paragraph">Our main mission is keeping guests cozy and energized.</p>
+          <p class="about__paragraph">Besides that, we try to reduce our environmental impact -- so we
+            don't sell single-use cups. But you can buy one of our reusable cups.</p>
+            </div>
+            <div class="about__circle"></div>
+            <div class="about__circle_animation_blurred"></div>
+      </section>
   </main>
   <footer id="contacts" class="footer">
-    <div class="footer__columns">
-      <div class="footer__column">
-        <img
-          src="./images/logo_coffeeshop_light.svg"
-          alt="Triple Peaks Coffee Shop Logo"
-          class="footer__logo">
+    <div class="footer__content">
+      <div class="footer__logo">
+        <img src="./images/logo_coffeeshop_light.svg" alt="Triple Peaks Coffee Shop Logo">
       </div>
-      <div class="footer__column footer__column_content_social">
-        <h3 class="footer__column footer__column_heading">Social Media</h3>
+      <div class="footer__column">
+        <h3 class="footer__social_heading">Social Media</h3>
         <ul class="footer__list">
-          <li class="footer__list footer__list_item">
-            <a href="#" class="footer__column footer__column_link">
-              <img
-                src="./images/facebook_white.svg"
-                alt="Facebook icon"
-                class="footer__social footer__social_icon">
-              Facebook</a>
+          <li class="footer__list_item">
+            <a href="#" class="footer__social_link">
+              <img src="./images/facebook_white.svg" alt="Facebook icon" class="footer__social_icon"> Facebook
+            </a>
           </li>
-          <li class="footer__list">
-            <a href="#" class="footer__column footer__column_link">
-              <img
-                src="./images/instagram_white.svg"
-                alt="Instagram icon"
-                class="footer__social footer__social_icon">
-              Instagram</a>
+          <li class="footer__list_item">
+            <a href="#" class="footer__social_link">
+              <img src="./images/instagram_white.svg" alt="Instagram icon" class="footer__social_icon"> Instagram
+            </a>
           </li>
         </ul>
       </div>
     </div>
-    <p class="footer__copyright">&copy; 2024 Samantha M. Fernandez</p>
+    <p class="footer__copyright">
+      &copy; 2024 Samantha M. Fernandez
+    </div>
   </footer>
-  </div>
-  </body>
-</html>
