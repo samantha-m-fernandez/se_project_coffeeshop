@@ -12,7 +12,6 @@ display: flex;
 justify-content: space-between;
 align-items: flex-start;
 margin: 0 auto;
-max-width: 1080px;
 padding-top: 60px;
 flex-wrap: wrap;
 }
@@ -25,11 +24,11 @@ flex-direction: column;
 }
 
 .footer__logo {
-  height: 80px;
-  width: 57px;
-  max-width: 150px;
-  margin-bottom: 20px;
-  }
+height: 80px;
+width: 57px;
+max-width: 150px;
+margin-bottom: 20px;
+}
 
 .footer__social_heading {
 font-family: "Inter", Arial, sans-serif;
