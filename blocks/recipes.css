@@ -31,6 +31,8 @@
   display:flex;
   justify-content: center;
   gap: 40px;
+  margin: 0;
+  padding: 0;
   }
 
   .recipes__iframe {
@@ -39,11 +41,12 @@
   border: none;
   }
 
-  .recipes__video_caption {
+  .recipes__caption {
     font-family: "Inter", Arial, sans-serif;
     font-size: 20px;
     line-height: 30px;
     display: flex;
     justify-content: space-between;
     font-weight: 500;
+    margin: 0;
   }
