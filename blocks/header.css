@@ -11,6 +11,7 @@
     height: 800px;
     color: #000;
     position: relative;
+    flex-wrap: wrap;
   }
 .header__title {
     font-family: "Inter", Arial, sans-serif;
@@ -20,6 +21,7 @@
     margin: 183px 0 0;
     max-width: 729px;
     font-weight: 500;
+    z-index: 2;
     }
 
 .header__span-accent {
@@ -36,6 +38,7 @@
       width: 646px;
       height: 568px;
       align-self: flex-end;
+      z-index: 1;
     }
 
 .header__description {
@@ -44,6 +47,8 @@
     line-height: 30px;
     margin: 28px 0 0;
     max-width: 683px;
+    position: relative;
+    z-index: 2;
   }
 
 .header__paragraph{

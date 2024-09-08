@@ -89,28 +89,28 @@
         </section>
         <section id="book_a_table" class="reservation">
           <h2 class="reservation__title">Book a Table</h2>
-          <form class="reservation__form form">
-          <fieldset class="form__fieldset">
-          <label for="name-input" class="form__label">
+          <form class="reservation-form">
+          <fieldset class="reservation-form__fieldset">
+          <label for="name-input" class="reservation-form__label">
             Name *
-            <input type="text" id="name-input" class="form__input" placeholder="Name Surname" required>
+            <input type="text" id="name-input" class="reservation-form__input" placeholder="Name Surname" required>
         </label>
-          <label for="number-of-guests" class="form__label">
+          <label for="number-of-guests" class="reservation-form__label">
             Number of guests *
-              <input type="number" min="1" max="8" id="number-of-guests" class="form__input" placeholder="1-8" required>
+              <input type="number" min="1" max="8" id="number-of-guests" class="reservation-form__input" placeholder="1-8" required>
               </label>
-          <label for="Date&Time" class="form__label">
+          <label for="Date&Time" class="reservation-form__label">
             Date & Time *
-                <input type="datetime-local" id="Date&Time" class="form__input" required>
+                <input type="datetime-local" id="Date&Time" class="reservation-form__input" required>
                 </label>
-          <label for="email-input" class="form__label">
+          <label for="email-input" class="reservation-form__label">
             Your email *
-                  <input type="email" class="form__input" id="email-input" placeholder="email@email.com" required>
+                  <input type="email" class="reservation-form__input" id="email-input" placeholder="email@email.com" required>
                   </label>
                 </fieldset>
-        <button class="form__button">Book a table</button>
-        <label for="check-box-input" class="form__label form__label_type_checkbox">
-          <input class="form__checkbox" id="check-box-input" type="checkbox" required>
+        <button class="reservation-form__button">Book a table</button>
+        <label for="check-box-input" class="reservation-form__label_type_checkbox">
+          <input class="reservation-form__checkbox" id="check-box-input" type="checkbox" required>
           I agree with the terms of use
         </label>
         </form>
@@ -159,25 +159,24 @@
           <p class="about__paragraph">Besides that, we try to reduce our environmental impact -- so we
             don't sell single-use cups. But you can buy one of our reusable cups.</p>
             </div>
+            <div class="about__circle"></div>
             <div class="about__circle about__circle_animation_blurred"></div>
       </section>
   </main>
   <footer id="contacts" class="footer">
     <div class="footer__content">
-      <div class="footer-logo">
-        <img src="./images/logo_coffeeshop_light.svg" alt="Triple Peaks Coffee Shop Logo">
-      </div>
+        <img class="footer__logo" src="./images/logo_coffeeshop_light.svg" alt="Triple Peaks Coffee Shop Logo">
       <div class="footer__column">
         <h3 class="footer__social-heading">Social Media</h3>
         <ul class="footer__list">
           <li class="footer__list-item">
             <a href="#" class="footer__social-link">
-              <img src="./images/facebook_white.svg" alt="Facebook icon" class="footer__social_icon"> Facebook
+              <img src="./images/facebook_white.svg" alt="Facebook icon" class="footer__social-icon"> Facebook
             </a>
           </li>
           <li class="footer__list-item">
             <a href="#" class="footer__social-link">
-              <img src="./images/instagram_white.svg" alt="Instagram icon" class="footer__social_icon"> Instagram
+              <img src="./images/instagram_white.svg" alt="Instagram icon" class="footer__social-icon"> Instagram
             </a>
           </li>
         </ul>
