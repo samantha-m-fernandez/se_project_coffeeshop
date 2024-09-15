@@ -19,7 +19,7 @@
   line-height: 52px;
 }
 
-.reservation__form form {
+.reservation__form {
   width: 100%;
   font-family: "Inter", Arial, sans-serif;
   margin: 0 auto;
