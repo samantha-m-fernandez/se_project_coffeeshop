@@ -1,85 +1,84 @@
 .footer {
-box-sizing: border-box;
-background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
-color: #fff;
-font-size: 16px;
-line-height: 20px;
-margin: 0;
-padding-bottom: 60px;
-padding-top: 0;
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 60px 0;
+  margin: 0;
 }
 
 .footer__content {
-display: flex;
-justify-content: space-between;
-align-items: center;
-margin-bottom: 0;
-margin-left: 80px;
-margin-right: 80px;
-flex-wrap: wrap;
-gap: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+  margin-left: 80px;
+  margin-right: 80px;
+  flex-wrap: wrap;
+  gap: 16px;
 }
 
 .footer__column {
-display: flex;
-flex-wrap: wrap;
-flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .footer__logo {
-width: 105px;
-height: 39px;
-margin: 0;
+  width: 105px;
+  height: 39px;
+  margin: 0;
 }
 
 .footer__social-heading {
-font-family: "Inter", Arial, sans-serif;
-font-size: 16px;
-font-weight: bold;
-margin: 0 0 20px;
-line-height: 20px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 20px;
+  line-height: 20px;
 }
 
 .footer__list {
-list-style-type: none;
-padding: 0;
-margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .footer__list-item {
-margin:0 0 16px;
+  margin: 0 0 16px;
 }
 
 .footer__list-item:last-child {
-margin: 0;
+  margin: 0;
 }
 
 .footer__social-link {
-display: flex;
-align-items: center;
-color: #fff;
-font-family: "Inter", Arial, sans-serif;
-font-size: 16px;
-line-height: 20px;
-text-decoration: none;
-transition: opacity 0.5s ease;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  transition: opacity 0.5s ease;
 }
 
 .footer__social-link:hover {
-opacity: 0.7;
+  opacity: 0.7;
 }
 
 .footer__social-icon {
-margin-right: 10px;
-width: 16px;
-height: 16px;
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
 }
 
 .footer__copyright {
-font-family:"Inter", Arial, sans-serif;
-font-size: 16px;
-line-height: 20px;
-margin-top: 108px;
-margin-bottom: 0;
-margin-left: 80px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 108px;
+  margin-bottom: 0;
+  margin-left: 80px;
 }
